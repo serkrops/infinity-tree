@@ -11,7 +11,7 @@
 }
 
 .input-wrapper {
-    @apply flex gap-3 mb-3 pl-5;
+    @apply flex gap-3 mb-3 pl-8;
 }
 
 .root-input {
@@ -26,12 +26,20 @@
     @apply flex flex-col gap-3 text-center rounded-xl p-3 mb-3 w-56;
 }
 
+.inner-items {
+    @apply flex flex-col gap-3 justify-center;
+}
+
 .node-block span {
     @apply border-2 border-blue-500 rounded-xl p-3;
 }
 
 .node-buttons {
     @apply flex gap-3 justify-center;
+}
+
+.node-main-buttons {
+    @apply flex flex-col gap-3 items-center;
 }
 
 .node-buttons span {
