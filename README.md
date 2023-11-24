@@ -1,7 +1,6 @@
 Links:
 
 [DEMO](https://infinity-tree.vercel.app/)
-[GitHub](https://github.com/serkrops/infinity-tree)
 
 About:
 
