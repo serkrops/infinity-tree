@@ -24,7 +24,7 @@ export const Block = ({
     useEffect(() => {
         inputRef?.current?.focus();
     }, [editMode]);
-
+  
     const handleInnerItems = () => {
         if (block.items.length) {
             setHasInnerItems(true);
