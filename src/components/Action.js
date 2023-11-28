@@ -1,7 +1,5 @@
-export const Action = ({ handleClick, type, className }) => {
-    return (
-        <div className={className} onClick={handleClick}>
-            {type}
-        </div>
-    );
-};
+export const Action = ({ handleClick, type, className }) => (
+  <button className={className} onClick={handleClick}>
+    {type}
+  </button>
+);
